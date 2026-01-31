@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "vscode-icons-team.vscode-icons",
+        "gruntfuggly.todo-tree",
+        "sonarsource.sonarlint-vscode",
+        "esbenp.prettier-vscode",
+        "sandcastle.vscode-open",
+        "davidanson.vscode-markdownlint",
+        "usernamehw.errorlens",
+        "cschlosser.doxdocgen",
+        "1nvitr0.censitive",
+        "neikeq.godot-csharp-vscode",
+        "eamodio.gitlens"
+    ]
+}

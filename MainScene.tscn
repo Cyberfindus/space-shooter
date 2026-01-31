@@ -1,3 +1,11 @@
-[gd_scene format=3 uid="uid://dq5vv0lq054cd"]
+[gd_scene load_steps=3 format=3 uid="uid://dq5vv0lq054cd"]
+
+[ext_resource type="Texture2D" uid="uid://2npkwd2bi0rj" path="res://icon.svg" id="1_x4av3"]
+[ext_resource type="Script" uid="uid://bibqi5ondywon" path="res://Scripts/Player.cs" id="2_rpqi1"]
 
 [node name="WorldRoot" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(566, 305)
+texture = ExtResource("1_x4av3")
+script = ExtResource("2_rpqi1")

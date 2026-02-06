@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://2npkwd2bi0rj" path="res://icon.svg" id="1_x4av3"]
 [ext_resource type="Script" uid="uid://bibqi5ondywon" path="res://Scripts/Player.cs" id="2_rpqi1"]
-[ext_resource type="Script" uid="uid://b6efkli7xadlp" path="res://Scripts/Laser.cs" id="3_rpqi1"]
+[ext_resource type="PackedScene" uid="uid://cr3c075pxqlbx" path="res://prefabs/laser.tscn" id="3_rpqi1"]
 
 [node name="WorldRoot" type="Node2D"]
 
@@ -10,9 +10,4 @@
 position = Vector2(566, 305)
 texture = ExtResource("1_x4av3")
 script = ExtResource("2_rpqi1")
-
-[node name="Laser" type="Sprite2D" parent="."]
-position = Vector2(571, 201)
-scale = Vector2(0.1, 0.3)
-texture = ExtResource("1_x4av3")
-script = ExtResource("3_rpqi1")
+_laserPrefab = ExtResource("3_rpqi1")
